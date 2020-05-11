@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85dfaa48-0baa-4672-bf0f-29ac406fc287" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bklXH44FCfTjZW80tPqGkVwBi8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Repo\challenge\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Repo\challenge\src\test" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="APITests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GistTests">
+    <configuration name="GistTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITests.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITests" />
+      <option name="MAIN_CLASS_NAME" value="APITests.GistTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GistTests.verifyThatCommentCanBeAdd" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITests.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITests" />
+      <option name="MAIN_CLASS_NAME" value="APITests.GistTests" />
+      <option name="METHOD_NAME" value="verifyThatCommentCanBeAdd" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GistTests.verifyThatCommentCanBeDeleted" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITests" />
+      <option name="MAIN_CLASS_NAME" value="APITests.GistTests" />
+      <option name="METHOD_NAME" value="verifyThatCommentCanBeDeleted" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GistTests.verifyThatPublicEndpointsReturns200" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITests.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITests" />
+      <option name="MAIN_CLASS_NAME" value="APITests.GistTests" />
+      <option name="METHOD_NAME" value="verifyThatPublicEndpointsReturns200" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GistTests.x" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITests.dtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITests" />
+      <option name="MAIN_CLASS_NAME" value="APITests.GistTests" />
+      <option name="METHOD_NAME" value="x" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GistTests" />
+        <item itemvalue="TestNG.GistTests.verifyThatCommentCanBeDeleted" />
+        <item itemvalue="TestNG.GistTests.verifyThatCommentCanBeAdd" />
+        <item itemvalue="TestNG.GistTests.verifyThatPublicEndpointsReturns200" />
+        <item itemvalue="TestNG.GistTests.x" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85dfaa48-0baa-4672-bf0f-29ac406fc287" name="Default Changelist" comment="" />
+      <created>1589184009365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589184009365</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added README">
+      <created>1589206045454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589206045454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1400" y="98" key="#Project_Structure" timestamp="1589203428047">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1400" y="98" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1589203428047" />
+    <state x="1651" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589203746715">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1651" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589203746715" />
+    <state x="1703" y="388" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589203418608">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1703" y="388" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1040@0.0.2560.1040" timestamp="1589203418608" />
+    <state x="1716" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589203387978">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1716" y="405" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1040@0.0.2560.1040" timestamp="1589203387978" />
+    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589191677932">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589191677932" />
+    <state x="1837" y="276" key="#xdebugger.XInspectDialog" timestamp="1589194640743">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1837" y="276" key="#xdebugger.XInspectDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589194640743" />
+    <state x="1574" y="119" key="CommitChangelistDialog2" timestamp="1589206044649">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1574" y="119" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1589206044649" />
+    <state x="401" y="172" key="DiffContextDialog" timestamp="1589204734149">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="401" y="172" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589204734149" />
+    <state x="1528" y="275" key="FileChooserDialogImpl" timestamp="1589189600853">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1528" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1589189600853" />
+    <state width="1049" height="367" key="GridCell.Tab.0.bottom" timestamp="1589207516124">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1049" height="367" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589207516124" />
+    <state width="1049" height="367" key="GridCell.Tab.0.center" timestamp="1589207516124">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1049" height="367" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589207516124" />
+    <state width="1049" height="367" key="GridCell.Tab.0.left" timestamp="1589207516124">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1049" height="367" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589207516124" />
+    <state width="1049" height="367" key="GridCell.Tab.0.right" timestamp="1589207516124">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1049" height="367" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589207516124" />
+    <state width="1234" height="347" key="GridCell.Tab.1.bottom" timestamp="1589199444030">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="347" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589199444030" />
+    <state width="1234" height="347" key="GridCell.Tab.1.center" timestamp="1589199444030">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="347" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589199444030" />
+    <state width="1234" height="347" key="GridCell.Tab.1.left" timestamp="1589199444030">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="347" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589199444030" />
+    <state width="1234" height="347" key="GridCell.Tab.1.right" timestamp="1589199444030">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1234" height="347" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589199444030" />
+    <state x="1450" y="178" key="Maven.ArtifactSearchDialog" timestamp="1589197100348">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1450" y="178" key="Maven.ArtifactSearchDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589197100348" />
+    <state x="1400" y="98" key="SettingsEditor" timestamp="1589203959270">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1400" y="98" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1589203959270" />
+    <state x="1872" y="438" key="extract.method.dialog" timestamp="1589201385678">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1872" y="438" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589201385678" />
+    <state x="303" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589191015083">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="303" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1589191015083" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="jo.map" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
