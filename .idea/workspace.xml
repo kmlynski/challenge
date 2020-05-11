@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85dfaa48-0baa-4672-bf0f-29ac406fc287" name="Default Changelist" comment="add API tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UITests/BaseUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UITests/MainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mainpage_tests.testng.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/UITests/screens/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/challenge.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APITests/BaseAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APITests/BaseAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UITests/BaseUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UITests/BaseUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UITests/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UITests/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/APITests/BaseAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/APITests/BaseAPITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/APITests/GistTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/APITests/GistTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/drivers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,6 +50,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Repo\challenge" />
       <recent name="E:\Repo\challenge\src\test\resources\drivers" />
       <recent name="E:\Repo\challenge\src\test" />
     </key>
@@ -55,55 +58,15 @@
       <recent name="APITests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Repo\challenge\src\test\resources\drivers" />
       <recent name="E:\Repo\challenge\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainPageTest.verifyThatWebpageIsOn">
-    <configuration name="MainPageTest.verifyThatWebpageIsOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E:/Repo/challenge/config/all_tests.testng.xml">
+    <configuration name="E:/Repo/challenge/config/all_tests.testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UITests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UITests" />
-      <option name="MAIN_CLASS_NAME" value="UITests.MainPageTest" />
-      <option name="METHOD_NAME" value="verifyThatWebpageIsOn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GistTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="APITests.dtos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="APITests" />
-      <option name="MAIN_CLASS_NAME" value="APITests.GistTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GistTests.verifyThatCommentCanBeAdd" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="APITests.dtos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="APITests" />
-      <option name="MAIN_CLASS_NAME" value="APITests.GistTests" />
-      <option name="METHOD_NAME" value="verifyThatCommentCanBeAdd" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/config/all_tests.testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -127,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest.verifyThatWebpageIsOn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTest.anchor_link_with_correct_email" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +100,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="UITests" />
       <option name="MAIN_CLASS_NAME" value="UITests.MainPageTest" />
-      <option name="METHOD_NAME" value="verifyThatWebpageIsOn" />
+      <option name="METHOD_NAME" value="anchor_link_with_correct_email" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.email_anchor_is_the_same_as_customer_email" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.MainPageTest" />
+      <option name="METHOD_NAME" value="email_anchor_is_the_same_as_customer_email" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.search_engine_founds_customer_not_case_sensitive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.MainPageTest" />
+      <option name="METHOD_NAME" value="search_engine_founds_customer_not_case_sensitive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainPageTest.verifyThatWebpageIsOn" />
+        <item itemvalue="TestNG.E:/Repo/challenge/config/all_tests.testng.xml" />
         <item itemvalue="TestNG.MainPageTest" />
-        <item itemvalue="JUnit.MainPageTest.verifyThatWebpageIsOn" />
-        <item itemvalue="TestNG.GistTests.verifyThatCommentCanBeAdd" />
-        <item itemvalue="TestNG.GistTests" />
+        <item itemvalue="TestNG.MainPageTest.anchor_link_with_correct_email" />
+        <item itemvalue="TestNG.MainPageTest.search_engine_founds_customer_not_case_sensitive" />
+        <item itemvalue="TestNG.MainPageTest.email_anchor_is_the_same_as_customer_email" />
       </list>
     </recent_temporary>
   </component>
@@ -187,20 +186,32 @@
       <option name="project" value="LOCAL" />
       <updated>1589207584639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added UI tests setup">
+      <created>1589210602494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589210602494</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added README" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="add API tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add API tests" />
+    <MESSAGE value="Added UI tests setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added UI tests setup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1400" y="98" key="#Project_Structure" timestamp="1589207595727">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1400" y="98" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1589207595727" />
+    <state x="1659" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589223582317">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1659" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1589223582317" />
     <state x="1651" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589203746715">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -221,34 +232,34 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1837" y="276" key="#xdebugger.XInspectDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589194640743" />
-    <state x="1574" y="119" key="CommitChangelistDialog2" timestamp="1589210314811">
+    <state x="732" y="56" width="1534" height="889" key="CommitChangelistDialog2" timestamp="1589226249009">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1574" y="119" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1589210314811" />
-    <state x="401" y="172" key="DiffContextDialog" timestamp="1589210276217">
+    <state x="732" y="56" width="1534" height="889" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1589226249009" />
+    <state x="401" y="172" key="DiffContextDialog" timestamp="1589226248143">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="401" y="172" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589210276217" />
-    <state x="1528" y="275" key="FileChooserDialogImpl" timestamp="1589208447365">
+    <state x="401" y="172" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589226248143" />
+    <state x="1528" y="275" key="FileChooserDialogImpl" timestamp="1589226344969">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1528" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1589208447365" />
-    <state width="1233" height="321" key="GridCell.Tab.0.bottom" timestamp="1589210200544">
+    <state x="1528" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1589226344969" />
+    <state width="2517" height="321" key="GridCell.Tab.0.bottom" timestamp="1589226596310">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1233" height="321" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589210200544" />
-    <state width="1233" height="321" key="GridCell.Tab.0.center" timestamp="1589210200544">
+    <state width="2517" height="321" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589226596310" />
+    <state width="2517" height="321" key="GridCell.Tab.0.center" timestamp="1589226596310">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1233" height="321" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589210200544" />
-    <state width="1233" height="321" key="GridCell.Tab.0.left" timestamp="1589210200544">
+    <state width="2517" height="321" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589226596310" />
+    <state width="2517" height="321" key="GridCell.Tab.0.left" timestamp="1589226596310">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1233" height="321" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589210200544" />
-    <state width="1233" height="321" key="GridCell.Tab.0.right" timestamp="1589210200544">
+    <state width="2517" height="321" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589226596310" />
+    <state width="2517" height="321" key="GridCell.Tab.0.right" timestamp="1589226596310">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1233" height="321" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589210200544" />
+    <state width="2517" height="321" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589226596310" />
     <state width="1234" height="347" key="GridCell.Tab.1.bottom" timestamp="1589199444030">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -269,6 +280,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1450" y="178" key="Maven.ArtifactSearchDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589209651770" />
+    <state x="1632" y="288" width="577" height="471" key="RefactorJ.ExtractClass" timestamp="1589222093730">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1632" y="288" width="577" height="471" key="RefactorJ.ExtractClass/0.0.2560.1040@0.0.2560.1040" timestamp="1589222093730" />
     <state x="1400" y="98" key="SettingsEditor" timestamp="1589203959270">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -277,6 +292,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1872" y="438" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589201385678" />
+    <state x="1628" y="256" width="585" height="534" key="find.popup" timestamp="1589213005912">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1628" y="256" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1589213005912" />
     <state x="303" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589191015083">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

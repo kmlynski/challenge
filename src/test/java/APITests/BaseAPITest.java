@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeSuite;
 import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.nio.charset.StandardCharsets;
+import java.nio.charset.Charset;
 
 
 public class BaseAPITest {
@@ -40,7 +40,7 @@ public class BaseAPITest {
 
     public String getOAuthToken() {
         String auth = USERNAME + ":" + GIST_TOKEN;
-        byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(StandardCharsets.ISO_8859_1));
+        byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(Charset.forName("ISO--8859-1")));
         return "Basic " + new String(encodedAuth);
     }
 

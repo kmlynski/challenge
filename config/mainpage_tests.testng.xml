@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="all_tests">
+    <parameter name="config" value="config.conf.json"/>
+    <test name="mainpage_tests" >
+        <classes>
+            <class name="UITests.MainPageTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="all_tests" duration-ms="7706" started-at="2020-05-11T21:52:36 CEST" finished-at="2020-05-11T21:52:44 CEST">
+    <groups>
+    </groups>
+    <test name="mainpage_tests" duration-ms="7706" started-at="2020-05-11T21:52:36 CEST" finished-at="2020-05-11T21:52:44 CEST">
+      <class name="UITests.MainPageTest">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="suiteSetUp" is-config="true" duration-ms="3019" started-at="2020-05-11T21:52:33 CEST" finished-at="2020-05-11T21:52:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="setUpMainPage()[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="setUpMainPage" is-config="true" duration-ms="149" started-at="2020-05-11T21:52:36 CEST" finished-at="2020-05-11T21:52:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMainPage -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:36 CEST" finished-at="2020-05-11T21:52:36 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.anchor_link_with_correct_email(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="anchor_link_with_correct_email(java.lang.String)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="anchor_link_with_correct_email" duration-ms="66" started-at="2020-05-11T21:52:36 CEST" data-provider="emails" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[office@alabaster.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchor_link_with_correct_email -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:37 CEST" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.anchor_link_with_correct_email(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="anchor_link_with_correct_email(java.lang.String)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="anchor_link_with_correct_email" duration-ms="30" started-at="2020-05-11T21:52:37 CEST" data-provider="emails" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[conatact@postimex.pl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchor_link_with_correct_email -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:37 CEST" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.anchor_link_with_correct_email(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="anchor_link_with_correct_email(java.lang.String)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="anchor_link_with_correct_email" duration-ms="69" started-at="2020-05-11T21:52:37 CEST" data-provider="emails" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[info@bond.ir]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anchor_link_with_correct_email -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:37 CEST" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="540" started-at="2020-05-11T21:52:37 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@39de9bda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:37 CEST" finished-at="2020-05-11T21:52:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="350" started-at="2020-05-11T21:52:37 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:38 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@47148f3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:38 CEST" finished-at="2020-05-11T21:52:38 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="333" started-at="2020-05-11T21:52:38 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:38 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@52226e57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:38 CEST" finished-at="2020-05-11T21:52:38 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="408" started-at="2020-05-11T21:52:38 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:38 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1200458e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:38 CEST" finished-at="2020-05-11T21:52:38 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="323" started-at="2020-05-11T21:52:38 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5fcd1c5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:39 CEST" finished-at="2020-05-11T21:52:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="333" started-at="2020-05-11T21:52:39 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3cc30dee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="384" started-at="2020-05-11T21:52:39 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7d528cf7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:39 CEST" finished-at="2020-05-11T21:52:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:39 CEST" finished-at="2020-05-11T21:52:39 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="348" started-at="2020-05-11T21:52:39 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:40 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6dee8ae6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="333" started-at="2020-05-11T21:52:40 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:40 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5af64ce0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:40 CEST" finished-at="2020-05-11T21:52:40 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:40 CEST" finished-at="2020-05-11T21:52:40 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="402" started-at="2020-05-11T21:52:40 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:40 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7e7e962d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:40 CEST" finished-at="2020-05-11T21:52:40 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="391" started-at="2020-05-11T21:52:40 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@17229821]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="search_engine_founds_customer_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_case_sensitive" duration-ms="378" started-at="2020-05-11T21:52:41 CEST" data-provider="searchOptionsCaseSensitive" finished-at="2020-05-11T21:52:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@e829999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:41 CEST" finished-at="2020-05-11T21:52:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:41 CEST" finished-at="2020-05-11T21:52:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="217" started-at="2020-05-11T21:52:41 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@66fb45e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:41 CEST" finished-at="2020-05-11T21:52:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="208" started-at="2020-05-11T21:52:41 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6cbe68e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="187" started-at="2020-05-11T21:52:42 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6f5e16cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:42 CEST" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:42 CEST" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="277" started-at="2020-05-11T21:52:42 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@750a04ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:42 CEST" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="237" started-at="2020-05-11T21:52:42 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@49e2b3c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="232" started-at="2020-05-11T21:52:42 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@56846330]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:42 CEST" finished-at="2020-05-11T21:52:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="232" started-at="2020-05-11T21:52:43 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@49f3ff41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:43 CEST" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="1" started-at="2020-05-11T21:52:43 CEST" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="229" started-at="2020-05-11T21:52:43 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6cfbbff7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="247" started-at="2020-05-11T21:52:43 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@30db5536]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:43 CEST" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:43 CEST" finished-at="2020-05-11T21:52:43 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="262" started-at="2020-05-11T21:52:43 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@45b32dfe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="233" started-at="2020-05-11T21:52:44 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@136ccbfe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:44 CEST" finished-at="2020-05-11T21:52:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="search_engine_founds_customer_not_case_sensitive([Ljava.lang.String;)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="search_engine_founds_customer_not_case_sensitive" duration-ms="252" started-at="2020-05-11T21:52:44 CEST" data-provider="searchOptionsNonCaseSensitive" finished-at="2020-05-11T21:52:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@22d9ca63]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_engine_founds_customer_not_case_sensitive -->
+        <test-method status="PASS" signature="beforeMethodSetup(java.lang.reflect.Method)[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="beforeMethodSetup" is-config="true" duration-ms="0" started-at="2020-05-11T21:52:44 CEST" finished-at="2020-05-11T21:52:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UITests.MainPageTest.search_engine_founds_customer_not_case_sensitive(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetup -->
+        <test-method status="PASS" signature="closeTheDriver()[pri:0, instance:UITests.MainPageTest@1ed4004b]" name="closeTheDriver" is-config="true" duration-ms="771" started-at="2020-05-11T21:52:44 CEST" finished-at="2020-05-11T21:52:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheDriver -->
+      </class> <!-- UITests.MainPageTest -->
+    </test> <!-- mainpage_tests -->
+  </suite> <!-- all_tests -->
+</testng-results>
